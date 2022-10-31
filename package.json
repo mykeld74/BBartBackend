@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "mykeld74 <mike@msdwebsolutions.com>",
-  "license": "UNLICENSED",
+  "author": "mykeld74 <mike@msdweb.pro>",
+  "license": "MIT",
   "scripts": {
     "start": "sanity start",
     "build": "sanity build"
