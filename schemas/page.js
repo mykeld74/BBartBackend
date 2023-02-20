@@ -1,6 +1,6 @@
 export default {
   name: "page",
-  title: "Page",
+  title: "Pages",
   type: "document",
   fields: [
     {
@@ -22,6 +22,36 @@ export default {
       name: "body",
       title: "Body",
       type: "blockContent",
+    },
+    {
+      name: "mainImage",
+      title: "Main image",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+      fields: [
+        {
+          title: "Alternative Text",
+          name: "alt",
+          type: "string",
+        },
+      ],
+    },
+    {
+      name: "secondaryImage",
+      title: "Secondary image",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+      fields: [
+        {
+          title: "Alternative Text",
+          name: "alt",
+          type: "string",
+        },
+      ],
     },
   ],
 

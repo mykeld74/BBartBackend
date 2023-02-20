@@ -31,7 +31,7 @@ export default {
     {
       name: "mainImage",
       title: "Main image",
-      type: "image",
+      type: "cloudinary.asset",
       options: {
         hotspot: true,
       },
@@ -99,13 +99,6 @@ export default {
   preview: {
     select: {
       title: "title",
-      media: "mainImage",
     },
-    // prepare(selection) {
-    //   const { author } = selection;
-    //   return Object.assign({}, selection, {
-    //     subtitle: author && `by ${author}`,
-    //   });
-    // },
   },
 };

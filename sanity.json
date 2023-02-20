@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "bbart"
+    "name": "Brenda Bennett Art"
   },
   "api": {
     "projectId": "eyosaf8p",
@@ -12,7 +12,9 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "@sanity/code-input"
+    "@sanity/code-input",
+    "cloudinary",
+    "asset-source-cloudinary"
   ],
   "env": {
     "development": {
